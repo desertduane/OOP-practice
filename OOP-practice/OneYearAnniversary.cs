@@ -9,7 +9,7 @@ namespace OOPpractice
     {
         public override void AllPacked()
         {
-            
+            Console.WriteLine("All packed and ready to go!");
         }
 
         public override int TimeOff()
@@ -25,6 +25,10 @@ namespace OOPpractice
         public override bool Drinks()
         {
             return false;
+        }
+        public override string planeHasLanded()
+        {
+            return planeHasLanded;
         }
     }
 }

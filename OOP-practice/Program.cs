@@ -14,15 +14,25 @@ namespace OOP_practice
 
             Console.WriteLine("Plane ticket was $" + springbreak.TransportationCost());
 
+            springbreak.AllPacked();
+            springbreak.vacationFunds();
+
+            springbreak.planeHasLanded = "Touchdown in Maui";
+            Console.WriteLine(springbreak.planeHasLanded());
+
             Console.WriteLine("Getting drinks tonight: " + springbreak.Drinks());
 
             Console.WriteLine("");
+
+
 
             OneYearAnniversary anniversary = new OneYearAnniversary();
 
             Console.WriteLine("One Year Anniverary is here.");
 
             Console.WriteLine("We got " + anniversary.TimeOff() + " days off!");
+
+            anniversary.Allpacked();
 
             Console.WriteLine("Our plane tickets were $" + anniversary.TransportationCost() + " each");
 

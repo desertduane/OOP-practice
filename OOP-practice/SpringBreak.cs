@@ -5,7 +5,7 @@ using OOPpractice;
 
 namespace OOPpractice
 {
-    class SpringBreak : Occasion
+    class SpringBreak : Occasion //inheritance
     {
         public override void AllPacked()
         {
@@ -22,6 +22,14 @@ namespace OOPpractice
         {
             int cost = 200;
             return cost;   
+        }
+        public override string planeHasLanded()
+        {
+            return planeHasLanded;
+        }
+        private void vacationFunds() //encapsulation protect financial information
+        {
+           Console.WriteLine("My vacation funds are private");
         }
     }
 }

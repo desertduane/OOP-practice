@@ -7,5 +7,12 @@ namespace OOPpractice
 {
      abstract class Destination : Vacation
     {
+        public abstract string planeHasLanded()
+        {
+            string touchDown;
+            return touchDown;
+        }
+   
+     
     }
 }
