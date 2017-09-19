@@ -11,4 +11,4 @@ Got much more pracgice with classes and inheritance.
 What resources did you utilize for this assingment?
 Class demos
 
-Having some visual studio problems trying to finish this assignment 9/18 11:00pm
+Having some visual studio problems trying to finish this assignment 9/18 11:00pm..
