@@ -28,7 +28,12 @@ namespace OOPpractice
         }
         public override string planeHasLanded()
         {
-            return planeHasLanded;
+            return "Landed";
+        }
+
+        internal void Allpacked()
+        {
+            Console.WriteLine("All packed");
         }
     }
 }
