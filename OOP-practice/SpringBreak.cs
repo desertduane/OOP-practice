@@ -25,11 +25,11 @@ namespace OOPpractice
         }
         public override string planeHasLanded()
         {
-            return planeHasLanded;
+            return "Landed";
         }
-        private void vacationFunds() //encapsulation protect financial information
+        public void vacationFunds() 
         {
-           Console.WriteLine("My vacation funds are private");
+           Console.WriteLine("My vacation funds are $500");
         }
     }
 }

@@ -17,7 +17,7 @@ namespace OOP_practice
             springbreak.AllPacked();
             springbreak.vacationFunds();
 
-            springbreak.planeHasLanded = "Touchdown in Maui";
+            springbreak.planeHasLanded();
             Console.WriteLine(springbreak.planeHasLanded());
 
             Console.WriteLine("Getting drinks tonight: " + springbreak.Drinks());
